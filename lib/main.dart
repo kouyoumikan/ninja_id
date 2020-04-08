@@ -15,6 +15,21 @@ class NinjaCard extends StatelessWidget {
         backgroundColor: Colors.grey[850],
         elevation: 0.0, // ドロップシャドウを表示しない
       ),
+      body: Padding(
+        padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
+        child: Column(
+          children: <Widget>[
+            Text(
+              "Name",
+              style: TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2.0,
+              ),
+            ),
+            
+          ],
+        ),
+      ),
     );
   }
 }
