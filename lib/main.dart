@@ -27,6 +27,7 @@ class NinjaCard extends StatelessWidget {
                 letterSpacing: 2.0,
               ),
             ),
+            SizedBox(height: 10.0), // 文字下にボックス分のスペース開ける
             Text(
               "Chun-Li",
               style: TextStyle(
@@ -36,6 +37,7 @@ class NinjaCard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(height: 30.0), // 文字下にボックス分のスペース開ける
           ],
         ),
       ),
