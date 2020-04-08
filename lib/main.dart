@@ -56,6 +56,23 @@ class NinjaCard extends StatelessWidget {
               ),
             ),
             SizedBox(height: 30.0), // 文字下にボックス分のスペース開ける
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.email,
+                  color: Colors.grey[400],
+                ),
+                SizedBox(width: 10.0), // アイコン横にボックス分のスペース開ける
+                Text(
+                  "chun.li@thenetninja.co.jp",
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                    fontSize: 18.0,
+                    letterSpacing: 1.0,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
